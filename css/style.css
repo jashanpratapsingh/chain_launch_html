@@ -952,6 +952,11 @@ spaces
     padding-bottom: 60px;
   }
 }
+.logo-image {
+  width: 50px;  /* Adjust width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove gap below the image */
+}
 
 .mil-p-90-120 {
   padding-top: 90px;
