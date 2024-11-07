@@ -956,6 +956,7 @@ spaces
   width: 50px;  /* Adjust width */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove gap below the image */
+  border-radius: 50%
 }
 
 .mil-p-90-120 {
