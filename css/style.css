@@ -2630,6 +2630,35 @@ team
 social icons
 
 ------------------------------------------- */
+
+.icon-btn {
+  width: none;               /* Set a fixed width */
+  height: none;              /* Set a fixed height */
+  background-color: transparent; 
+  border: none;              /* Remove border */
+  border-radius: 50%;        /* Make the button circular */
+  display: flex;             /* Flexbox to center the icon */
+  align-items: center;       /* Vertically center the icon */
+  justify-content: center;   /* Horizontally center the icon */
+  cursor: pointer;          /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+.icon-btn i {
+  color: white;              /* Icon color */
+  font-size: 24px;           /* Icon size */
+}
+
+.icon-btn:hover {
+  background-color: rgb(204,229,255);;    /* Darken the background color on hover */
+}
+.icon-btn:hover {
+  color: rgb(204,229,255);
+}
+
+.mil-social-icons li b:hover {
+  color: rgb(204,229,255);
+}
+
 .mil-social-icons {
   padding: 0;
   margin: 0;
