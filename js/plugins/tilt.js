@@ -169,7 +169,7 @@
             // If option pre-render is enabled we assume all html/css is present for an optimal glare effect.
             if (!glarePrerender)
             // Create glare element
-                $(this).append('<div class="js-tilt-glare"><div class="js-tilt-glare-inner"></div></div>');
+                $(this).append('<div class="../js-tilt-glare"><div class="../js-tilt-glare-inner"></div></div>');
 
             // Store glare selector if glare is enabled
             this.glareElementWrapper = $(this).find(".js-tilt-glare");
